@@ -1,3 +1,4 @@
+import 'package:carrinho_simples/pages/listaProdutos.dart';
 import 'package:carrinho_simples/pages/paginaLogin.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       title: "aplicativu",
       theme: ThemeData( primarySwatch: Colors.blue),
-      home: Paginalogin(),
+      home: Listaprodutos(),
       );
   }
 }
